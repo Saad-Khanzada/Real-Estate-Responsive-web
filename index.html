@@ -18,15 +18,15 @@
         <div class="logo"><img src="img/Ghar_Ho_To_Aisa-removebg-preview.png" alt=""></div>
         <ul>
             <span id="navspan">
-                <li class="navbar"> <a href="#">Home</a> </li>
-                <li class="navbar"> <a href="#">Rent House</a> </li>
-                <li class="navbar"> <a href="#">Sell House</a> </li>
-                <li class="navbar"> <a href="#">Find an Agent</a> </li>
+                <li class="navbar"> <a href="#home">Home</a> </li>
+                <li class="navbar"> <a href="#rent">Rent House</a> </li>
+                <li class="navbar"> <a href="#sell">Sell House</a> </li>
+                <li class="navbar"> <a href="#agent">Find an Agent</a> </li>
             </span>
         </ul>
     </nav>
 
-    <secttion class="home">
+    <secttion class="home" id="home">
 
         <div class="headings">
 
@@ -60,7 +60,7 @@
 
     </secttion>
 
-    <section class="rent">
+    <section class="rent" id="rent">
         <h1>Rent Houses</h1>
         <div class="sellcards">
 
@@ -97,7 +97,7 @@
     </section>
 
 
-    <section class="sell">
+    <section class="sell" id="sell">
         <h1>Sell Your House</h1>
 
         <div class="sellcards">
@@ -118,6 +118,22 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, nam!</p>
                 <button class="btn">Call Us</button>
             </div>
+        </div>
+    </section>
+
+
+    <section class="agent" id="agent">
+        <h1>Find an Agent</h1>
+        <div class="box">
+            <label for="name">Name:</label>
+            <input type="text" name="name">
+            <label for="type">Agent Type:</label>
+            <select name="type" id="type">
+                <option value="Rent">Rent a House</option>
+                <option value="Sell">Sell a House</option>
+                <option value="Buy">Buy a House</option>
+            </select>
+            <button class="btn">Find</button>
         </div>
     </section>
 
