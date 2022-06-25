@@ -1,0 +1,213 @@
+body {
+    all: unset;
+}
+
+#navigationbar {
+    display: flex;
+    margin: 0%;
+    justify-content: center;
+    height: 84px;
+    align-items: center;
+    position: sticky;
+    /* font-family: 'Baloo Bhaina 2', cursive; */
+    font-family: 'Baloo Chettan 2', cursive;
+
+}
+
+#navigationbar ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.logo img {
+    width: 155px;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+.navbar ul li {
+    margin: 7.1rem 1.2rem;
+
+}
+
+.navbar a {
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+
+}
+
+#navspan {
+    display: flex;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 23px;
+}
+
+#navigationbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+
+/* Homes section */
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 150px;
+}
+
+.home .headings {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    line-height: 1px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    /* font-family: 'Baloo Chettan 2', cursive;   */
+    font-size: 1.3rem;
+
+
+}
+
+.home .headings::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: -1;
+    opacity: 0.88;
+}
+
+.home::before {
+    content: "";
+    position: absolute;
+    background-image: url("img/home2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 800px;
+    z-index: -2;
+
+
+
+
+}
+
+#homebtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn {
+    width: 120px;
+    height: 51px;
+    width: 120px;
+    font-weight: bold;
+    color: white;
+    height: 51px;
+    font-size: 1.1rem;
+    background-color: rgba(59, 65, 68, 0.8);
+    border-radius: 13px;
+    /* border: 2px solid; */
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn.active {
+    background-color: white;
+    color: brown;
+
+}
+.search{
+    display: flex;
+    margin-top: 20px;
+    
+
+}
+.search input{
+    height: 60px;
+    width: 620px;
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+
+}
+ .sbtn{
+    background-color: brown;
+    border: none;
+    border-radius: 7px;
+    position: relative;
+    left: -79px;
+    
+    /* background-image: url('img/searchicon.png') no-repeat left center; */
+    width: 80px;
+    cursor: pointer;
+   
+}
+
+
+/* Rent section */
+.rent{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 200px;
+
+}
+.cards{
+    border: 1px solid  black;
+    margin: 28px;
+    padding: 32px;
+    box-shadow: rgb(0 0 0 / 30%) 0px 2px 4px 0px;
+    /* width: 100%;
+    height: 100%; */
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+
+}
+.cards:hover{
+    transform: scale(1.08);
+
+}
+.cards .btn{
+    width: 200px;
+    background-color: white;
+    border: 2px solid skyblue;
+    color: black;
+}
+.cards .btn:hover{
+    background-color: rgb(92, 149, 172);
+}
+.cards img{
+    width: 250px;
+    height: 190px;
+    margin: 47px;
+}
