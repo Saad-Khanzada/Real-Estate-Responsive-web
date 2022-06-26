@@ -1,0 +1,55 @@
+#navigationbar{
+    flex-direction: column;
+    height: 165px;
+}
+.logo img {
+    width: 92px;
+}
+#navspan{
+    display: block;
+    margin-top: -43px;
+}
+
+/* Home section */
+.search{margin-left: 72px;}
+.search input {
+   
+    width: 23.2rem;
+    font-size: 0.7rem;
+
+
+}
+
+
+
+body{
+    /* background-color: red; */
+}
+
+
+/* rent section */
+.sellcards{
+    flex-wrap: wrap;
+}
+
+
+
+/* sell section */
+
+/* agent section */
+
+
+
+/* root settings */
+h1{
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 1.3rem;
+
+}
+h2{
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 0.8rem;
+
+
+
+}

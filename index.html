@@ -9,14 +9,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Baloo+Chettan+2&display=swap"
         rel="stylesheet">
+
+
+
+
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:1403px)" href="mobile.css">
+    <style>
+         @media (min-width: 0px) and (max-width: 708px) {
+            #navigationbar {
+                flex-direction: column;               
+        }
+        #navspan{display: block;}
+
+
+
+    </style>
+
     <title>Real Estate Web</title>
 </head>
 
 <body>
     <nav id="navigationbar">
         <div class="logo"><img src="img/Ghar_Ho_To_Aisa-removebg-preview.png" alt=""></div>
+      
         <ul>
+          
             <span id="navspan">
                 <li class="navbar"> <a href="#home">Home</a> </li>
                 <li class="navbar"> <a href="#rent">Rent House</a> </li>
