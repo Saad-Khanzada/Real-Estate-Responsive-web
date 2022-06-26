@@ -57,7 +57,7 @@ body {
 
 
 /* sell section */
-.rent .cards, .sell .cards {
+.rent .cards,.sell .cards {
     margin: 0px;
     padding: 10px;
     margin-bottom: 15px;
