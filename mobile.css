@@ -14,12 +14,15 @@
 .search{margin-left: 72px;}
 .search input {
    
-    width: 23.2rem;
+    width: 14.2rem;
     font-size: 0.7rem;
 
 
 }
-
+.sbtn {
+    width: 52px;
+    left: -48px;
+}
 
 
 body{
