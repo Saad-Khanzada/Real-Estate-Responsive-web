@@ -39,8 +39,9 @@ body{
 
 /* sell section */
 .cards {
-    margin: 5px;
+    margin: 0px;
     padding: 10px;
+    margin-bottom: 15px;
 
 }
 /* agent section */
