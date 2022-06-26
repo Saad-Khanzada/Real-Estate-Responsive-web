@@ -12,6 +12,14 @@
     margin-top: -43px;
 }
 
+
+.navbar a {
+    padding: 0.3rem;
+    
+    font-size: 0.8rem;
+
+}
+
 /* Home section */
 .search {
     margin-left: 72px;
