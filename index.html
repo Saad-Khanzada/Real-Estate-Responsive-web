@@ -16,13 +16,47 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" media="screen and (max-width:1403px)" href="mobile.css">
     <style>
-        @media (min-width: 0px) and (max-width: 708px) {
+        @media (max-width: 708px) {
             #navigationbar {
                 flex-direction: column;
             }
 
             #navspan {
                 display: block;
+            }
+
+
+        }
+
+        @media (max-width: 357px) {
+
+            #homebtn {
+                flex-direction: column;
+            }
+
+            .cards img {
+                margin: 3px;
+            }
+
+            .agent .box input,
+            .agent .box select,
+            .agent .box label,
+            .agent .box option {
+                width: 90%;
+                border-radius: 9px;
+                font-size: 0.7rem;
+                padding: 10px;
+                margin: 7px;
+            }
+
+            .agent .box {
+
+                width: 200px;
+
+            }
+
+            .search {
+                margin-left: 0px;
             }
         }
     </style>

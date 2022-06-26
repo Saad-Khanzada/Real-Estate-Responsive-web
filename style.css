@@ -252,10 +252,9 @@ body {
 /* sell section */
 
 .sell {
-    display: flex;
-    flex-direction: column;
+
     position: relative;
-    justify-content: center;
+
     align-items: center;
     text-align: center;
     margin: 200px;
@@ -367,7 +366,8 @@ h2 {
 
 
 }
-p{
+
+p {
     font-family: 'Baloo Bhaina 2', cursive;
     font-size: 1rem;
 }
