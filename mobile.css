@@ -1,37 +1,47 @@
-#navigationbar{
+#navigationbar {
     flex-direction: column;
     height: 165px;
 }
+
 .logo img {
     width: 92px;
 }
-#navspan{
+
+#navspan {
     display: block;
     margin-top: -43px;
 }
 
 /* Home section */
-.search{margin-left: 72px;}
+.search {
+    margin-left: 72px;
+}
+
 .search input {
-   
+
     width: 14.2rem;
     font-size: 0.7rem;
 
 
 }
+
 .sbtn {
     width: 52px;
     left: -48px;
 }
 
 
-body{
+body {
     /* background-color: red; */
 }
 
 
 /* rent section */
-.sellcards{
+.rent {
+    margin: 16px;
+}
+
+.sellcards {
     flex-wrap: wrap;
 }
 
@@ -44,17 +54,22 @@ body{
     margin-bottom: 15px;
 
 }
+.sell{
+    margin: 16px;
+}
+
 /* agent section */
 
 
 
 /* root settings */
-h1{
+h1 {
     font-family: 'Baloo Bhaina 2', cursive;
     font-size: 1.3rem;
 
 }
-h2{
+
+h2 {
     font-family: 'Baloo Bhaina 2', cursive;
     font-size: 0.8rem;
 
