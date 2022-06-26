@@ -51,12 +51,13 @@ body {
 
 .sellcards {
     flex-wrap: wrap;
+    margin: 0px;
 }
 
 
 
 /* sell section */
-.cards {
+.rent .cards, .sell .cards {
     margin: 0px;
     padding: 10px;
     margin-bottom: 15px;

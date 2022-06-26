@@ -180,20 +180,42 @@ body {
 
 /* Rent section */
 .rent {
-    display: flex;
-    flex-direction: column;
     position: relative;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     text-align: center;
     margin: 200px;
 
 }
 
-.cards {
-    border: 1px solid black;
-    margin: 28px;
-    padding: 32px;
+.sellcards {
+    /* display: flex;
+    flex-direction: column; */
+
+    display: flex;
+    align-items: center;
+    margin: 30px 119px;
+    justify-content: center;
+    margin-top: 0px;
+
+
+
+
+}
+
+
+
+.sellcards .cards {
+    border: 2px solid black;
+    /* margin: 28px;
+    padding: 32px; */
+    margin: 10px 20px;
+    padding: 5px 15px;
+    border-radius: 23px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
     box-shadow: rgb(0 0 0 / 30%) 0px 2px 4px 0px;
     /* width: 100%;
     height: 100%; */
@@ -228,6 +250,7 @@ body {
 
 
 /* sell section */
+
 .sell {
     display: flex;
     flex-direction: column;
@@ -238,10 +261,31 @@ body {
     margin: 200px;
 
 }
-.sellcards{
-    display: flex;
-    flex-direction: row;
+
+
+.sell .cards {
+    border: 2px solid black;
+    border-radius: 23px;
+    margin: 10px 20px;
+    padding: 5px 15px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+
+
+
+    box-shadow: rgb(0 0 0 / 30%) 0px 2px 4px 0px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+
 }
+
+
+
+
+
 .sell input {
     width: 200px;
     height: 40px;
@@ -254,16 +298,16 @@ body {
 
 
 /* agent section */
-.agent{
+.agent {
     display: flex;
     flex-direction: column;
     position: relative;
     color: white;
     align-items: center;
-    
+
 }
 
-.agent::before{
+.agent::before {
     content: "";
     position: absolute;
     background-color: yellowgreen;
@@ -279,37 +323,51 @@ body {
     z-index: -3;
 
 }
-.agent .box{
+
+.agent .box {
     display: flex;
     flex-direction: column;
     width: 300px;
     margin: 19px auto;
 }
-#type{width: 108%;}
-.agent .box input, .agent .box select, .agent .box label, .agent .box option{
-  
+
+#type {
+    width: 108%;
+}
+
+.agent .box input,
+.agent .box select,
+.agent .box label,
+.agent .box option {
+
     width: 100%;
     border-radius: 9px;
     font-size: 1.1rem;
     padding: 10px;
     margin: 7px;
 }
-.agent .btn{
+
+.agent .btn {
     width: 108%;
     margin-top: 10px;
 }
 
 
 /* root settings */
-h1{
+h1 {
     font-family: 'Baloo Bhaina 2', cursive;
     font-size: 2.3rem;
 
 }
-h2{
+
+h2 {
     font-family: 'Baloo Bhaina 2', cursive;
     font-size: 1.3rem;
 
 
 
+}
+p{
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 1rem;
 }
